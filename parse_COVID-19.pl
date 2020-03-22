@@ -12,7 +12,7 @@ use Excel::Writer::XLSX;
 use Excel::Writer::XLSX::Utility;
 use Date::Calc qw (Delta_Days);
 
-my $update = 0;
+my $update = 1;
 my $json_file = 'dpc-covid19-ita-regioni.json';
 if ($update) {
     unlink $json_file if (-e $json_file);
@@ -38,7 +38,6 @@ my $workbook = Excel::Writer::XLSX->new( './out/COVID-19.xlsx' );    # Step 1
 my $format = $workbook->add_format();
 $format->set_num_format( '0.00' );
 my @regioni = keys %covid;
-@regioni = qw(Abruzzo);
 foreach my $regione (@regioni) {
     my $worksheet = $workbook->add_worksheet($regione);
     my $outfile = "./out/$regione.csv";
@@ -80,7 +79,7 @@ foreach my $regione (@regioni) {
             my $iend = $irow+1;
             my $istart = $iend-$id;
             my $start_datetime = $dates[$istart-2];
-warn "$irow,$start_datetime $deceduti{$start_datetime}" if ($id == 1);
+
             next unless ($deceduti{$start_datetime} > 0);
             my $formula = "=J$iend/J$istart";
             $worksheet->write_formula($irow,12+$id,$formula,$format);
