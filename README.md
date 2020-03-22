@@ -6,13 +6,32 @@ License: http://dev.perl.org/licenses/artistic.html
 
 Installation:
 
-You may need yo install non core modules with cpan or cpanm.
+You may need to install non core modules with cpan or cpanm. 
+
+On Ubuntu, for example:
+```
+$ sudo apt-get cpanminus
+$ sudo cpanm JSON
+$ sudo cpanm File::Slurp
+$ sudo cpanm Excel::Writer::XLSX
+$ sudo cpanm Date::Calc
+```
+On Windows you can install www.strawberryperl.com and then 
+```
+> cpanm JSON
+> cpanm File::Slurp
+> cpanm Excel::Writer::XLSX
+> cpanm Date::Calc
+```
 
 Usage:
-
+```
 $ perl parse_COVID-19.pl
+```
 
 The program retrieves the daily JSON summary https://github.com/pcm-dpc/COVID-19/blob/master/dati-json/dpc-covid19-ita-regioni.json and creates in ./out folder an Excel file with one sheet for each region with data stored for each day.
+
+Set `$update = 0` to disable JSON file download.
 
 The Excel file (not updated) is this one, see if it fits your needs: https://github.com/robianc/parse_COVID-19/blob/master/out/COVID-19.xlsx
 
