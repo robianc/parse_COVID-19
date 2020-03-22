@@ -31,7 +31,7 @@ $ perl parse_COVID-19.pl
 
 The program retrieves the daily JSON summary https://github.com/pcm-dpc/COVID-19/blob/master/dati-json/dpc-covid19-ita-regioni.json and creates in ./out folder an Excel file with one sheet for each region with data stored for each day.
 
-Set `$update = 0` to disable JSON file download.
+Set within code `$update = 0` to disable JSON file download.
 
 The Excel file (not updated) is this one, see if it fits your needs: https://github.com/robianc/parse_COVID-19/blob/master/out/COVID-19.xlsx
 
