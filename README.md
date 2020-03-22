@@ -6,7 +6,7 @@ License: http://dev.perl.org/licenses/artistic.html
 
 Installation:
 
-You may need to install non core modules with cpan or cpanm. 
+You may need to install these Perl modules with cpan or cpanm. 
 
 On Ubuntu, for example:
 ```
@@ -16,7 +16,7 @@ $ sudo cpanm File::Slurp
 $ sudo cpanm Excel::Writer::XLSX
 $ sudo cpanm Date::Calc
 ```
-On Windows you can install www.strawberryperl.com and then 
+On Windows you can install www.strawberryperl.com and then:
 ```
 > cpanm JSON
 > cpanm File::Slurp
@@ -35,4 +35,4 @@ Set within code `$update = 0` to disable JSON file download.
 
 The Excel file (not updated) is this one, see if it fits your needs: https://github.com/robianc/parse_COVID-19/blob/master/out/COVID-19.xlsx
 
-The Excel also incudes the computation, for each i-th day, of deceased(i)/deceased(j) for j={i-1,i-2,...,i-10}. This ratio could give an indication on the trend of death counts compared to death counts j days before. 
+The Excel also incudes the computation, for each region and each i-th day, of deceased(i)/deceased(j) for j={i-1,i-2,...,i-10}. This ratio could give an indication on the trend of death counts compared to death counts j days before. 
