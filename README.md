@@ -6,10 +6,14 @@ License: http://dev.perl.org/licenses/artistic.html
 
 Installation:
 
-usage:
+You may need yo install non core modules with cpan or cpanm.
 
-perl parse_COVID-19.pl
+Usage:
 
-The program retrieves the daily JSON summary https://github.com/pcm-dpc/COVID-19/blob/master/dati-json/dpc-covid19-ita-regioni.json and creates in ./out folder an Excel file with one sheet for each region.
+$ perl parse_COVID-19.pl
+
+The program retrieves the daily JSON summary https://github.com/pcm-dpc/COVID-19/blob/master/dati-json/dpc-covid19-ita-regioni.json and creates in ./out folder an Excel file with one sheet for each region with data stored for each day.
+
+The Excel file (not updated) is this one: https://github.com/robianc/parse_COVID-19/blob/master/out/COVID-19.xlsx
 
 The Excel also incudes the computation, for each day i, of deceased(i) / deceased(j) for j=i-1 ... i-10. This ratio could give an indication on the trend of death counts based on counts j days before. 
