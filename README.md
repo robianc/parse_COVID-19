@@ -1,6 +1,11 @@
 # parse_COVID-19
 A Perl code to load the COVID-19 Italian dataset into an Excel file
 
+(C) Roberto Bianconi 2020 
+License: http://dev.perl.org/licenses/artistic.html
+
+Installation:
+
 usage:
 
 perl parse_COVID-19.pl
