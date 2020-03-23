@@ -51,9 +51,9 @@ Focusing on Lombardy from 12/3/2020 onward, the rate d(i)/d(10) is very well des
 The exponential function has the form y = a\*exp(b\*i). So it is less than 1 when i > -ln(a)/b.
 
 
-|Estimate as of | a | b | R | Estimated peak date | Excel file | Plot |
-|-|-|-|-|-|-|-|
-|22/03/2020| 18.731 | -0.145 | 0.9749 | 02/04/2020 |[COVID-19_20200322.xlsx](old/COVID-19_20200322.xlsx) |[lombardia_j10_20200322](old/lombardia_j10_20200322.png) |  
+|Estimate as of | a | b | R | Estimated peak date | Files |
+|-|-|-|-|-|-|
+|22/03/2020| 18.731 | -0.145 | 0.9749 | 02/04/2020 |[Excel](old/COVID-19_20200322.xlsx) [Plot](old/lombardia_j10_20200322.png) |  
 
 
 
