@@ -33,7 +33,7 @@ The program retrieves the daily JSON summary https://github.com/pcm-dpc/COVID-19
 
 Set within code `$update = 0` to disable JSON file download.
 
-The Excel file (not updated) is this one, see if it fits your needs: https://github.com/robianc/parse_COVID-19/blob/master/out/COVID-19.xlsx
+The Excel file (not updated) is this one, see if it fits your needs: ./out/COVID-19.xlsx
 
 ## Extra
 
@@ -50,6 +50,6 @@ The exponential function has the form y = a\*exp(b\*i). So it is less than 1 whe
 
 |Estimate (j=10) as of | Excel file | a | b | R | Estimated peak date |
 |-|-|-|-|-|
-|22/03/2020| 18.731 | [COVID-19.xlsx](https://github.com/robianc/parse_COVID-19/blob/master/out/COVID-19.xlsx) | -0.145 | 0.9749 | 02/04/2020 |	
+|22/03/2020| 18.731 | [COVID-19.xlsx](./out/COVID-19.xlsx) | -0.145 | 0.9749 | 02/04/2020 |	
 
 
