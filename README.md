@@ -35,7 +35,7 @@ Set within code `$update = 0` to disable JSON file download.
 
 The Excel file (not updated) is this one, see if it fits your needs: [COVID-19.xlsx](./out/COVID-19.xlsx)
 
-## Extra
+## Peak estimate
 
 The Excel also incudes the computation, for each region and each i-th day, of deceased(i)/deceased(j) for j={i-1,i-2,...,i-10}. This ratio could give an indication on the trend of death counts compared to death counts j days before. 
 
