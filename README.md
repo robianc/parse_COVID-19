@@ -45,11 +45,12 @@ The tendency is inverted when the ratio becomes less than 1 (i.e. the rate of de
 
 Focusing on Lombardy from 13/3/2020 onward, the rate d(i)/d(10) is very well described by an exponential function (R > 0.97).
 
-The exponential function has the form y = a*exp(b*i). So it is less than 1 when i > -ln(a)/b.
+The exponential function has the form y = a\*exp(b\*i). So it is less than 1 when i > -ln(a)/b.
 
-|||
-|Date of estimate (\*) | a | b | R | Estimated peak date (j=9) | Estimated peak date (j=10) |
-|22/03/2020 | a | b | R | Estimated peak date (j=9) | Estimated peak date (j=10) |
+
+|Date of estimate (j=9) | a | b | R | Estimated peak date |
+|-----------------------|---|-|-|-|
+
 
 	18.731
 -0.135	-0.145
