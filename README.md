@@ -34,7 +34,7 @@ The program retrieves the daily JSON summary https://github.com/pcm-dpc/COVID-19
 
 Set within code `$update = 0` to disable JSON file download.
 
-The Excel file is this one, see if it fits your needs: [COVID-19.xlsx](./out/COVID-19.xlsx). You may need to execute the script to update contents.
+The Excel file is this one, see if it fits your needs: [COVID-19.xlsx](./out/COVID-19.xlsx). You may need to execute the script to update its contents.
 
 ## Peak estimate
 
