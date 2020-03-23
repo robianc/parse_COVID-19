@@ -44,7 +44,7 @@ The tendency is inverted when the ratio becomes less than 1.
 
 ### Lombardy
 
-Focusing on Lombardy from 13/3/2020 onward, the rate d(i)/d(10) is very well described by an exponential function (R > 0.97).
+Focusing on Lombardy from 12/3/2020 onward, the rate d(i)/d(10) is very well described by an exponential function (R > 0.97).
 
 ![](./old/lombardia_j10_20200322.png)
 
