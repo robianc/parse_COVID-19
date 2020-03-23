@@ -49,7 +49,10 @@ The exponential function has the form y = a\*exp(b\*i). So it is less than 1 whe
 
 
 |Estimate (j=10) as of | Excel file | a | b | R | Estimated peak date |
-|-|-|-|-|-|
+
+|-|-|-|-|-|-|
+
 |22/03/2020| 18.731 | [COVID-19.xlsx](./out/COVID-19.xlsx) | -0.145 | 0.9749 | 02/04/2020 |	
+
 
 
