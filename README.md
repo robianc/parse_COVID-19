@@ -45,7 +45,7 @@ The tendency is inverted when the ratio becomes less than 1.
 
 Focusing on Lombardy from 13/3/2020 onward, the rate d(i)/d(10) is very well described by an exponential function (R > 0.97).
 
-!(./old/lombardia_20200322.png)
+![](./old/lombardia_20200322.png)
 
 The exponential function has the form y = a\*exp(b\*i). So it is less than 1 when i > -ln(a)/b.
 
