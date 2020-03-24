@@ -54,9 +54,10 @@ The tendency of the stress on the system as whole is inverted when the ratio bec
 
 Focusing on Lombardy from 12/3/2020 onward, the rate cumulated_deceased(i)/cumulated_deceased(10) is generally described by an exponential function. There are cases when the best fit is obtained with a logaythmic or a polynomial function.
 
-The exponential function has the form y = a\*exp(b\*i). So it is less than 1 when i > -ln(a)/b. The peak is then estimated to be -ln(a)/b + 1 days ahead.
+The exponential function has the form y = a\*exp(b\*i). So it is less than 1 when i > -ln(a)/b. 
 
-|Estimate of|Best fit|a|b|R²|Estimated days from peak|Estimated peak date|
+|Estimate of|Best fit|a|b|R2|Estimated days from peak|Estimated peak date|
+|-|-|-|-|-|-|-|
 |19/03/2020|y = 28.551e(-0.142x)|28.551|-0.142|0.9383|24|02/04/2020|
 |20/03/2020|y = -8.551ln(x) + 25.675|-8.551|25.675|0.9887|18|28/03/2020|
 |21/03/2020|y = 22.387e(-0.151x)|22.387|-0.151|0.9792|21|01/04/2020|
