@@ -17,7 +17,7 @@ On Ubuntu, for example:
 ```
 $ sudo apt-get cpanminus
 $ sudo cpanm JSON
-$ sudo cpanm File::Slurp0
+$ sudo cpanm File::Slurp
 $ sudo cpanm Excel::Writer::XLSX
 $ sudo cpanm Date::Calc
 ```
@@ -42,31 +42,53 @@ The Excel file is this one, see if it fits your needs: [COVID-19.xlsx](./out/COV
 
 ## Peak estimate of "system stress"
 
-The Excel also incudes the computation, for each region and each i-th day, of deceased(i)/deceased(j) for j={i-1,i-2,...,i-10}.
-
-"deceased(i)" is the total number of deaths up to day i.
-
-This ratio could give an indication on the trend of death counts compared to death counts up to j days before. 
+The Excel also incudes the computation, for each region and each i-th day, of cumulated_deceased(i)/cumulated_deceased(j) for j={i-1,i-2,...,i-10}. This ratio could give an indication on the trend of death counts compared to death counts up to j days before. 
 
 The number of deaths depends not only on the number of infected people, but also on the capability of the health system to cope with the on-going situation.
 
 The tendency of the stress on the system as whole is inverted when the ratio becomes cumulated_deceased(i)/cumulated_deceased(j) less than 1.
 
-### Lombardy
+## Estimates for Lombardy
 
-Focusing on Lombardy from 12/3/2020 onward, the rate deceased(i) / deceased(i-10) is described very well by an exponential function.
+[Excel](old/COVID-19_summary.xlsx)
 
-![Fitting 22/03/2020](old/lombardia_j10_20200322.png)
+Focusing on Lombardy from 12/3/2020 onward, the rate cumulated_deceased(i)/cumulated_deceased(10) is generally described by an exponential function. There are cases when the best fit is obtained with a logaythmic or a polynomial function.
 
-![Fitting 23/03/2020](old/lombardia_j10_20200323.png)
+The exponential function has the form y = a\*exp(b\*i). So it is less than 1 when i > -ln(a)/b. The peak is then estimated to be -ln(a)/b + 1 days ahead.
 
-The exponential function has the form y = a\*exp(b\*i). So it is less than 1 when i > -ln(a)/b.
+|Estimate of|Best fit|a|b|R²|Estimated days from peak|Estimated peak date|
+|19/03/2020|y = 28.551e(-0.142x)|28.551|-0.142|0.9383|24|02/04/2020|
+|20/03/2020|y = -8.551ln(x) + 25.675|-8.551|25.675|0.9887|18|28/03/2020|
+|21/03/2020|y = 22.387e(-0.151x)|22.387|-0.151|0.9792|21|01/04/2020|
+|22/03/2020|y = 18.731e(-0.145x)|18.731|-0.145|0.9749|20|01/04/2020|
+|23/03/2020|y = 15.847e(-0.139x)|15.847|-0.139|0.9608|20|02/04/2020|
+|24/03/2020|y = 13.418e(-0.129x)|13.418|-0.129|0.9389|20|03/04/2020|
 
 
-|Estimate as of | a | b | pcc | R2 | Estimated peak date | Files |
-|-|-|-|-|-|-|-|
-|22/03/2020| 18.731 | -0.145 | | 0.9749 | 02/04/2020 |[Excel](old/COVID-19_20200322.xlsx) - [Plot](old/lombardia_j10_20200322.png) |  
-|23/03/2020| 15.8469 | -0.1392 | 0.9814 | 0.9678 | 02/04/2020 |[Excel](old/COVID-19_20200323.xlsx) - [Plot](old/lombardia_j10_20200323.png) |  
+### 19/03/2020
+
+![Fitting 19/03/2020](old/lombardia_j10_20200319_exp.png)
+
+### 20/03/2020
+
+![Fitting 20/03/2020](old/lombardia_j10_20200320_log.png)
+
+### 21/03/2020
+
+![Fitting 21/03/2020](old/lombardia_j10_20200321_exp.png)
+
+### 22/03/2020
+
+![Fitting 22/03/2020](old/lombardia_j10_20200322_exp.png)
+
+### 23/03/2020
+
+![Fitting 23/03/2020](old/lombardia_j10_20200323_exp.png)
+
+### 24/03/2020
+
+![Fitting 24/03/2020](old/lombardia_j10_20200324_exp.png)
+
 
 
 
