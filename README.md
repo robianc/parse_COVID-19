@@ -17,7 +17,7 @@ On Ubuntu, for example:
 ```
 $ sudo apt-get cpanminus
 $ sudo cpanm JSON
-$ sudo cpanm File::Slurp
+$ sudo cpanm File::Slurp0
 $ sudo cpanm Excel::Writer::XLSX
 $ sudo cpanm Date::Calc
 ```
@@ -42,7 +42,11 @@ The Excel file is this one, see if it fits your needs: [COVID-19.xlsx](./out/COV
 
 ## Peak estimate of "system stress"
 
-The Excel also incudes the computation, for each region and each i-th day, of cumulated_deceased(i)/cumulated_deceased(j) for j={i-1,i-2,...,i-10}. This ratio could give an indication on the trend of death counts compared to death counts up to j days before. 
+The Excel also incudes the computation, for each region and each i-th day, of deceased(i)/deceased(j) for j={i-1,i-2,...,i-10}.
+
+"deceased(i)" is the total number of deaths up to day i.
+
+This ratio could give an indication on the trend of death counts compared to death counts up to j days before. 
 
 The number of deaths depends not only on the number of infected people, but also on the capability of the health system to cope with the on-going situation.
 
@@ -50,7 +54,7 @@ The tendency of the stress on the system as whole is inverted when the ratio bec
 
 ### Lombardy
 
-Focusing on Lombardy from 12/3/2020 onward, the rate cumulated_deceased(i) / cumulated_deceased(i-10) is described very well by an exponential function.
+Focusing on Lombardy from 12/3/2020 onward, the rate deceased(i) / deceased(i-10) is described very well by an exponential function.
 
 ![Fitting 22/03/2020](old/lombardia_j10_20200322.png)
 
