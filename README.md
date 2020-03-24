@@ -91,6 +91,11 @@ The exponential function has the form y = a\*exp(b\*i). So it is less than 1 whe
 ![Fitting 24/03/2020](old/lombardia_j10_20200324_exp.png)
 
 
+It is worth to note that data are better inerpolated with a quadratic function. 
+
+![Fitting 24/03/2020](old/lombardia_j10_20200324_x2.png)
+
+This curve never reaches 1, so the tendency is never inverted.
 
 
 
