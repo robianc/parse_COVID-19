@@ -42,7 +42,7 @@ The Excel file is this one, see if it fits your needs: [COVID-19.xlsx](./out/COV
 
 ## Peak estimate
 
-The Excel also incudes the computation, for each region and each i-th day, of deceased(i)/deceased(j) for j={i-1,i-2,...,i-10}. This ratio could give an indication on the trend of death counts compared to death counts j days before. 
+The Excel also incudes the computation, for each region and each i-th day, of cumulated_deceased(i)/cumulated_deceased(j) for j={i-1,i-2,...,i-10}. This ratio could give an indication on the trend of death counts compared to death counts j days before. 
 
 The tendency is inverted when the ratio becomes less than 1.
 
