@@ -50,7 +50,7 @@ The tendency of the stress on the system as whole is inverted when the ratio bec
 
 ### Lombardy
 
-Focusing on Lombardy from 12/3/2020 onward, the rate cumulated_deceased(i)/cumulated_deceased(10) is very well described by an exponential function.
+Focusing on Lombardy from 12/3/2020 onward, the rate cumulated_deceased(i) / cumulated_deceased(i-10) is described very well by an exponential function.
 
 ![Fitting 22/03/2020](old/lombardia_j10_20200322.png)
 
