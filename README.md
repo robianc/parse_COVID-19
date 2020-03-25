@@ -31,12 +31,12 @@ When the exponential function has the form y = a\*exp(b\*i), its value is less t
 
 ### 25/03/2020
 
-![Fitting 25/03/2020](lombardia_j10_20200325_exp.png)
+![Fitting 25/03/2020](lombardia/lombardia_j10_20200325_exp.png)
 
 
 It is worth to note that data are better interpolated by a parabola.
 
-![Fitting 25/03/2020](lombardia_j10_20200325_x2.png)
+![Fitting 25/03/2020](lombardia/lombardia_j10_20200325_x2.png)
 
 This curve never reaches 1, so the tendency is never inverted.
 
