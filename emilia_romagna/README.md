@@ -1,7 +1,7 @@
 # Estimates for Emilia-Romagna
 
 
-[Excel](COVID-19_emilia-romagna.xlsx)
+[Excel](COVID-19_emilia_romagna.xlsx)
 
 |Estimate of|Best fit|a|b|c|R2|Estimated days from peak|Estimated peak date|
 |-|-|-|-|-|-|-|-|
