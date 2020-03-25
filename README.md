@@ -25,14 +25,15 @@ The tendency of the stress on the system as whole is inverted when the ratio bec
 
 When the exponential function has the form y = a\*exp(b\*i), its value is less than 1 when i > -ln(a)/b. That gives the number of days away from the peak.
 
-## Latest estimates
+## Latest peak date estimates
 
-### [Estimates for Lombardy](lombardia/README.md)
+### [Lombardy](lombardia/README.md)
 
 ### 25/03/2020
 
 ![Fitting 25/03/2020](lombardia/lombardia_j10_20200325_exp.png)
 
+The estimated peak date is 4/4/2020.
 
 It is worth to note that data are better interpolated by a parabola.
 
@@ -41,13 +42,14 @@ It is worth to note that data are better interpolated by a parabola.
 This curve never reaches 1, so the tendency is never inverted.
 
 
-### [Estimates for Emilia-Romagna](emilia_romagna/README.md)
+### [Emilia-Romagna](emilia_romagna/README.md)
 
 
 ### 25/03/2020
 
-![Fitting 25/03/2020](emilia_romagna_j10_20200325_x2.png)
+![Fitting 25/03/2020](emilia_romagna/emilia_romagna_j10_20200325_x2.png)
 
+The estimated peak date is 12/4/2020.
 
 ## Installation and use:
 
