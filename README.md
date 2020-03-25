@@ -54,10 +54,8 @@ When the exponential function has the form y = a\*exp(b\*i), its value is less t
 
 ### [Estimates for Lombardy](lombardia/README.md)
 
-Latest estimate of peak : 4/4/2020 (made 25/3/2020)
-
 ### [Estimates for Emilia-Romagna](emilia_romagna/README.md)
 
-Latest estimate of peak : 12/4/2020 (made 25/3/2020)
+
 
 
