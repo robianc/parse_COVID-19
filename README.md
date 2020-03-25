@@ -27,6 +27,8 @@ When the exponential function has the form y = a\*exp(b\*i), its value is less t
 
 ## Latest peak date estimates
 
+Click on region names for detialed analysis.
+
 ### [Lombardy](lombardia/README.md)
 
 ### 25/03/2020
