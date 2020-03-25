@@ -1,7 +1,7 @@
 # Estimates for Lombardy
 
 
-[Excel](../old/COVID-19_lombardy.xlsx)
+[Excel](COVID-19_lombardia.xlsx)
 
 Focusing on Lombardy from 12/3/2020 onward, the rate cumulated_deceased(i)/cumulated_deceased(10) is generally described by an exponential function. There are cases when the best fit is obtained with a logarythmic or a polynomial function.
 
@@ -22,43 +22,43 @@ The exponential function has the form y = a\*exp(b\*i). So it is less than 1 whe
 
 ### 19/03/2020
 
-![Fitting 19/03/2020](../old/lombardia_j10_20200319_exp.png)
+![Fitting 19/03/2020](lombardia_j10_20200319_exp.png)
 
 ### 20/03/2020
 
-![Fitting 20/03/2020](../old/lombardia_j10_20200320_log.png)
+![Fitting 20/03/2020](lombardia_j10_20200320_log.png)
 
 ### 21/03/2020
 
-![Fitting 21/03/2020](../old/lombardia_j10_20200321_exp.png)
+![Fitting 21/03/2020](lombardia_j10_20200321_exp.png)
 
 ### 22/03/2020
 
-![Fitting 22/03/2020](../old/lombardia_j10_20200322_exp.png)
+![Fitting 22/03/2020](lombardia_j10_20200322_exp.png)
 
 ### 23/03/2020
 
-![Fitting 23/03/2020](../old/lombardia_j10_20200323_exp.png)
+![Fitting 23/03/2020](lombardia_j10_20200323_exp.png)
 
 ### 24/03/2020
 
-![Fitting 24/03/2020](../old/lombardia_j10_20200324_exp.png)
+![Fitting 24/03/2020](lombardia_j10_20200324_exp.png)
 
 
 It is worth to note that data are better interpolated by a parabola.
 
-![Fitting 24/03/2020](../old/lombardia_j10_20200324_x2.png)
+![Fitting 24/03/2020](lombardia_j10_20200324_x2.png)
 
 This curve never reaches 1, so the tendency is never inverted.
 
 ### 25/03/2020
 
-![Fitting 25/03/2020](../old/lombardia_j10_20200325_exp.png)
+![Fitting 25/03/2020](lombardia_j10_20200325_exp.png)
 
 
 It is worth to note that data are better interpolated by a parabola.
 
-![Fitting 25/03/2020](../old/lombardia_j10_20200325_x2.png)
+![Fitting 25/03/2020](lombardia_j10_20200325_x2.png)
 
 This curve never reaches 1, so the tendency is never inverted.
 
