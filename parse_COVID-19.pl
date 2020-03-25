@@ -12,7 +12,7 @@ use Excel::Writer::XLSX;
 use Excel::Writer::XLSX::Utility;
 use Date::Calc qw (Delta_Days);
 
-my $update = 0; # 1 to update with latest data 
+my $update = 1; # 1 to update with latest data 
 my $ndays = 10; # number of days to include in analysis (last $ndays)
 #------------------------------------------------------- no serviceable parts below
 my @start_date = (2020,3,13);
@@ -28,7 +28,7 @@ my %covid;
 my @vars = qw(terapia_intensiva nuovi_attualmente_positivi tamponi totale_casi ricoverati_con_sintomi totale_attualmente_positivi dimessi_guariti totale_ospedalizzati deceduti isolamento_domiciliare);
 my @records = @{$data};
 foreach my $record (@records) {
-    my ($date,$time) = split (" ",$record->{'data'});
+    my ($date,$time) = split ("T",$record->{'data'});
     map { $covid{$record->{'denominazione_regione'}}{$date}{$_} = $record->{$_} } @vars;
 }
 
