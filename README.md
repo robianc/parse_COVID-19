@@ -48,6 +48,16 @@ The number of deaths depends not only on the number of infected people, but also
 
 The tendency of the stress on the system as whole is inverted when the ratio becomes cumulated_deceased(i)/cumulated_deceased(j) less than 1.
 
-## [Estimates for Lombardy](lombardia/README.md)
+When the exponential function has the form y = a\*exp(b\*i), its value is less than 1 when i > -ln(a)/b. That gives the number of days away from the peak.
+
+## Latest estimates
+
+### [Estimates for Lombardy](lombardia/README.md)
+
+Latest estimate of peak : 4/4/2020 (made 25/3/2020)
+
+## [Estimates for Emilia-Romagna](emilia_romagna/README.md)
+
+Latest estimate of peak : 12/4/2020 (made 25/3/2020)
 
 
