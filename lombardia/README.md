@@ -64,7 +64,7 @@ This curve never reaches 1, so the tendency is never inverted.
 
 ### 26/03/2020
 
-![Fitting 26/03/2020](lombardia_j10_20200325_xa.png)
+![Fitting 26/03/2020](lombardia_j10_20200326_xa.png)
 
 
 

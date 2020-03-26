@@ -14,6 +14,6 @@
 
 ### 26/03/2020
 
-![Fitting 26/03/2020](emilia_romagna_j10_20200325_x.png)
+![Fitting 26/03/2020](emilia_romagna_j10_20200326_x.png)
 
 
