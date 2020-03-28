@@ -37,25 +37,7 @@ Click on region names for daily plots.
 
 The estimated peak date is 23/4/2020.
 
-### 26/03/2020
-
-![Fitting 25/03/2020](lombardia/lombardia_j10_20200326_xa.png)
-
-
 ### [Emilia-Romagna](emilia_romagna/README.md)
-
-
-### 25/03/2020
-
-![Fitting 25/03/2020](emilia_romagna/emilia_romagna_j10_20200325_x2.png)
-
-The estimated peak date is 12/4/2020.
-
-### 26/03/2020
-
-![Fitting 26/03/2020](emilia_romagna/emilia_romagna_j10_20200326_x.png)
-
-The estimated peak date is 29/3/2020.
 
 ![Fitting 27/03/2020](emilia_romagna/emilia_romagna_j10_20200327_exp.png)
 
