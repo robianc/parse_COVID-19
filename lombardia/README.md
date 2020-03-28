@@ -8,7 +8,7 @@ Focusing on Lombardy from 12/3/2020 onward, the rate cumulated_deceased(i)/cumul
 The exponential function has the form y = a\*exp(b\*i). So it is less than 1 when i > -ln(a)/b. 
 
 |Estimate of|Best fit|a|b|c|R2|Estimated days from peak|Estimated peak date|
-|-|-|-|-|-|-|-|-|
+|:---------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |19/03/2020|y = 28.551e(-0.142x)|28.551|-0.142|-|0.9383|24|02/04/2020|
 |20/03/2020|y = -8.551ln(x) + 25.675|-8.551|25.675|-|0.9887|18|28/03/2020|
 |21/03/2020|y = 22.387e(-0.151x)|22.387|-0.151|-|0.9792|21|01/04/2020|
@@ -21,6 +21,7 @@ The exponential function has the form y = a\*exp(b\*i). So it is less than 1 whe
 
 
 |Estimate of|Best fit|Estimated days from peak|Estimated peak date|
+|:------|:---:|:---:|:---:|
 |26/03/2020|y = y = 10.569x-0.468|154|17/08/2020|
 |27/03/2020|y = -1.795ln(x) + 7.503|37|23/04/2020|
 
