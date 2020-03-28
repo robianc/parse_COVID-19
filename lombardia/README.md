@@ -20,6 +20,11 @@ The exponential function has the form y = a\*exp(b\*i). So it is less than 1 whe
 |25/03/2020|y = 0.1068x2 - 1.947x + 12.832|0.1068|-1.947|12.832|0.9526|n.a.|n.a.|
 
 
+|Estimate of|Best fit|Estimated days from peak|Estimated peak date|
+|26/03/2020|y = y = 10.569x-0.468|154|17/08/2020|
+|27/03/2020|y = -1.795ln(x) + 7.503|37|23/04/2020|
+
+
 ### 19/03/2020
 
 ![Fitting 19/03/2020](lombardia_j10_20200319_exp.png)
@@ -65,6 +70,10 @@ This curve never reaches 1, so the tendency is never inverted.
 ### 26/03/2020
 
 ![Fitting 26/03/2020](lombardia_j10_20200326_xa.png)
+
+### 27/03/2020
+
+![Fitting 27/03/2020](lombardia_j10_20200327_xa.png)
 
 
 

@@ -31,17 +31,11 @@ Click on region names for daily plots.
 
 ### [Lombardy](lombardia/README.md)
 
-### 25/03/2020
+### 27/03/2020
 
-![Fitting 25/03/2020](lombardia/lombardia_j10_20200325_exp.png)
+![Fitting 27/03/2020](lombardia/lombardia_j10_20200327_xa.png)
 
-The estimated peak date is 4/4/2020.
-
-It is worth to note that data are better interpolated by a parabola.
-
-![Fitting 25/03/2020](lombardia/lombardia_j10_20200325_x2.png)
-
-This curve never reaches 1, so the tendency is never inverted.
+The estimated peak date is 23/4/2020.
 
 ### 26/03/2020
 
@@ -62,6 +56,10 @@ The estimated peak date is 12/4/2020.
 ![Fitting 26/03/2020](emilia_romagna/emilia_romagna_j10_20200326_x.png)
 
 The estimated peak date is 29/3/2020.
+
+![Fitting 27/03/2020](emilia_romagna/emilia_romagna_j10_20200327_exp.png)
+
+The estimated peak date is 6/4/2020.
 
 ## Installation and use:
 
